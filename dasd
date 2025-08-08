@@ -1,0 +1,254 @@
+[33mcommit 0cc572d370ff6de02335db64c2484c8966f14dd5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AI <72843342+pmhue@users.noreply.github.com>
+Date:   Fri Aug 8 09:22:14 2025 +0700
+
+    Delete .env
+
+[33mcommit 00668814f8559b8b0b654ed6cef90063f935b03e[m
+Author: pmhue <phanminhhuept@gmail.com>
+Date:   Fri Aug 8 09:18:00 2025 +0700
+
+    Frist commit for project
+
+[33mcommit e4de0d367dfc22fd9b9f0fd80bd86ecfea4e8b57[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Tue May 27 12:12:33 2025 -0400
+
+    fixes issue #106, loses model instance when enabling webcam
+
+[33mcommit da4fe946ad8cf1d35bd01b8e7decd7bc515fa91c[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Tue May 20 16:49:50 2025 -0400
+
+    use onopen event for connected boolean
+
+[33mcommit ac84a937e0047b03519cb76e3a1ffebbbc5c5e62[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Mon May 19 12:09:59 2025 -0400
+
+    flush remaining audio buffer when turn is complete
+
+[33mcommit 6b9e90883054c26234db2b8603810564df47e785[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Mon May 19 12:09:32 2025 -0400
+
+    memoize log components
+
+[33mcommit 19fa769210fcfbc64baa952fd67e68574ae7fbc1[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Fri May 16 12:07:52 2025 -0400
+
+    updating all types to @google/genai
+    
+    - removes use of Type-Guards
+    - refines Logger and emitted logs from genai-live-client
+    - removes unused util
+    - fix settings-dialog system instructions
+
+[33mcommit 0aca87087b325a40da21f530aed3a84ff0e43d1d[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu May 15 14:33:01 2025 -0400
+
+    update client to use uSDK and rename to genai-live-client
+
+[33mcommit aee0ce09f0ed9d4e69be61781337f8a164a0a9a2[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Apr 23 12:26:57 2025 -0400
+
+    fix lint on ResponseModalitySelector
+
+[33mcommit 025c37e84c59b7b3253b77ed2e4eaf6278244a76[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Apr 23 12:24:32 2025 -0400
+
+    change hideSettings to enableEditingSettings on ControlTray
+
+[33mcommit 6ad6b5501ed99aed386610f0b112fe371be79d70[m
+Merge: fab92bf 7cc756d
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Apr 23 12:21:12 2025 -0400
+
+    Merge branch 'feature/settings'
+
+[33mcommit 7cc756d763899da85cb42a042d32a3f1dbe2a751[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Apr 23 12:20:50 2025 -0400
+
+    remove logs
+
+[33mcommit 9e2f168b14a89e5513528592837a55b8abebc503[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Apr 23 12:18:23 2025 -0400
+
+    fix editing of function declarations
+
+[33mcommit 1ab572aec4a7db9fecf5862c777779fa0b0cc5c0[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Apr 23 11:57:54 2025 -0400
+
+    settings dialog disabled while connected
+
+[33mcommit fab92bfdd6e6fc39a5a05ce0e6236d92ac6a9a3c[m
+Author: Logan Kilpatrick <lkilpatrick@google.com>
+Date:   Wed Mar 19 16:44:07 2025 -0500
+
+    Update README.md
+
+[33mcommit 330599777fd2326bd20fd07f5bb2d6ec088f041a[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Feb 26 16:02:33 2025 -0500
+
+    adds settings-dialog gui
+
+[33mcommit c4750cf74f3716c8b3c59a785e59e651b6bc1f53[m
+Merge: c5de370 640eade
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Jan 2 15:37:20 2025 -0500
+
+    Merge pull request #1 from google-gemini/dependabot/npm_and_yarn/multi-6bc014718a
+    
+    Bump path-to-regexp and express
+
+[33mcommit c5de3700f620b6d7f3e0bb2e176224f2300656f1[m
+Merge: be90d41 6d6d1a9
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Jan 2 15:36:55 2025 -0500
+
+    Merge pull request #2 from google-gemini/dependabot/npm_and_yarn/nanoid-3.3.8
+    
+    Bump nanoid from 3.3.7 to 3.3.8
+
+[33mcommit be90d41baabc035b7a98a77dbaf34c99e115b740[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Jan 2 15:35:28 2025 -0500
+
+    fix typo in success: true example tool response
+
+[33mcommit 6b49983fab3f39571fb898379ec76ec1e5953bf8[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Jan 2 15:32:41 2025 -0500
+
+    fixes #43 typo in isServerContentMessage
+
+[33mcommit 68bb998fdada9f14d120144a64cd15a3e0cf995a[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Fri Dec 20 09:46:42 2024 -0500
+
+    make usage more prominent in readme
+
+[33mcommit ba98d6ce62929022e91d18a906521ab1fa12ea85[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Fri Dec 20 09:41:31 2024 -0500
+
+    fix typo, update readme with usage
+
+[33mcommit 3f14027236bb758e39cb4db68ad8a0fedf7154bd[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Dec 19 15:05:34 2024 -0500
+
+    adds demos/genlist to readme
+
+[33mcommit 4d9e7bc1b9eef7d186815faed5abe6adc36284b3[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Dec 19 13:15:52 2024 -0500
+
+    update readme
+
+[33mcommit 33a0a632ae54be7449f2c0e7028fa2f72a5760c3[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Dec 18 14:46:33 2024 -0500
+
+    adds support for executalCode, codeExecutionResult parts
+    
+    also adds SyntaxHighlighter component
+
+[33mcommit c66029ca0b386a73675fb6405fde37a7e7d20805[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Mon Dec 16 15:41:36 2024 -0500
+
+    add script for testing over https
+
+[33mcommit e368fda908777f2c58a11a51f7c71336c0335738[m
+Merge: 2639a48 79e971c
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Mon Dec 16 16:20:35 2024 -0500
+
+    Merge pull request #18 from trudypainter/main
+    
+    Add demo video thumbnail for main branch README
+
+[33mcommit 79e971c5fc44e7f1ffde4dfb012373bd68cd817c[m
+Author: Trudy Painter <trudyp@google.com>
+Date:   Mon Dec 16 16:13:20 2024 -0500
+
+    added demo video to the README
+
+[33mcommit 2639a48c8065cd937e8fa83068ab2f55e6a2aab1[m
+Merge: 1a63566 8b39a36
+Author: Logan Kilpatrick <lkilpatrick@google.com>
+Date:   Sat Dec 14 15:04:25 2024 -0600
+
+    Merge pull request #12 from eltociear/patch-1
+    
+    docs: rename CONTRIBUTING to CONTRIBUTING.md
+
+[33mcommit 8b39a36c4e9ecdea3ce1f9b46380e748dfe01e4b[m
+Author: Ikko Eltociear Ashimine <eltociear@gmail.com>
+Date:   Sun Dec 15 02:33:44 2024 +0900
+
+    docs: rename CONTRIBUTING to CONTRIBUTING.md
+
+[33mcommit 1a63566a83eacefcc8fabc85fdc42e8035f02009[m
+Author: Logan Kilpatrick <lkilpatrick@google.com>
+Date:   Fri Dec 13 19:18:30 2024 -0600
+
+    Update README.md
+
+[33mcommit dc3614d412b2c5902fbc9af46c3109ed26fd2405[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Thu Dec 12 14:04:21 2024 -0500
+
+    update readme altair example
+
+[33mcommit 308f09da796116b982996beebf33a4f9a72fb90a[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Dec 11 11:22:41 2024 -0500
+
+    reinstate altair function and search grounding
+
+[33mcommit d24c7543ef04ddea0a7137c7aa8d00d27a9f2667[m
+Author: Kyle Phillips <kylephillips@google.com>
+Date:   Wed Dec 11 10:37:39 2024 -0500
+
+    update config
+
+[33mcommit 6d6d1a9b23c6189625beeaa098ffc5cc041c040e[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 11 15:07:40 2024 +0000
+
+    Bump nanoid from 3.3.7 to 3.3.8
+    
+    Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.7 to 3.3.8.
+    - [Release notes](https://github.com/ai/nanoid/releases)
+    - [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/ai/nanoid/compare/3.3.7...3.3.8)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: nanoid
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 640eadeddba261f2efc7e0f8f8a6ca085d445588[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 11 15:07:33 2024 +0000
+
+    Bump path-to-regexp and express
+    
+    Bumps [path-to-regexp](https://github.com/pillarjs/path-to-regexp) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+    
+    Updates `path-to-regexp` from 0.1.10 to 0.1.12
+    - [Release notes](https://github.com/pillarjs/path-to-regexp/releases)
+    - [Changelog
